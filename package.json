@@ -1,0 +1,38 @@
+{
+  "name": "laboratorio-7-web-laberinto",
+  "version": "1.0.0",
+  "description": "Utilizando webpack para compilar react usando babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext js,jsx src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/her20053/Laboratorio-7-WEB-Laberinto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/her20053/Laboratorio-7-WEB-Laberinto/issues"
+  },
+  "homepage": "https://github.com/her20053/Laboratorio-7-WEB-Laberinto#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "style-loader": "^3.3.1"
+  }
+}
